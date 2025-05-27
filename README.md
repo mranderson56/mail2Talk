@@ -2,7 +2,7 @@
 
 # Mail to Nextcloud Talk Script
 
-This script is designed to send messages to Nextcloud Talk from emails sent to Postfix. Emails are redirected by Postfix via aliases (`/etc/aliases`) to this script, which processes them and sends the relevant information to a specified Nextcloud Talk room.
+This script is designed to send messages to [Nextcloud/Talk](https://github.com/nextcloud/spreed) from emails sent to Postfix. Emails are redirected by Postfix via aliases (`/etc/aliases`) to this script, which processes them and sends the relevant information to a specified Nextcloud Talk room.
 
 ## Features
 
